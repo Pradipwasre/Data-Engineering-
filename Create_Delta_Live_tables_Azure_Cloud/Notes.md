@@ -2,6 +2,22 @@
 
 ![alt text](image.png)
 
+# Project Description:
+
+Real-time analytics involves analyzing and measuring data immediately upon its entry into the database. This enables users to gain insights or make conclusions as soon as data is received, empowering businesses to react swiftly by seizing opportunities and addressing issues promptly.
+
+In contrast, batch-style analytics can take hours or days to deliver results, often generating static insights based on outdated information. Real-time analytics provides dynamic insights that allow organizations to proactively stay ahead of their competitors. Streaming data pipelines typically follow a three-step process: Ingest, Analyze, and Deliver.
+
+Our objective is to establish a Delta Live Tables pipeline within Azure Databricks to handle both streaming and batch data from various sources. Batch data is stored in Azure Data Lake Storage, while streaming data is ingested through Azure Event Hub. Each layer of the Delta Live Table will undergo different transformations, and we will use Power BI to visualize the data stored in the gold layer of the Delta Live Tables.
+
+**Overview of Delta Live Tables**
+
+Delta Live Tables is a platform designed for building robust, scalable, and validated data processing workflows. It handles task scheduling, cluster administration, monitoring, data integrity, and error management, while you define the specific data transformations to be executed on your data. Instead of manually creating multiple Apache Spark tasks to build data pipelines, Delta Live Tables manages how your data is transformed based on predefined target schemas for each processing step.
+
+Furthermore, Delta Live Tables enables you to enforce data quality standards. Through "expectations," you can specify the desired level of data quality and define actions to take when records do not meet these standards. This feature enhances the reliability and integrity of your data processing pipelines.
+
+**Tech Stack :** SQL, Spark, Python
+**Services   :** Azure Event Hub, Azure Data Lake Storage, Azure Databricks, Delta Live Tables, Power BI
 
 
 # What is Delta Live Tables:
@@ -45,3 +61,11 @@
 > Create reports where metrics to be refreshed every minute for airline data insights
 > Plan is to use Azure Databricks delta Live tables along with Azure Event Hubs in this soluition using Python and SQL language.
 > Visualization will happen using the Power BI reports
+
+
+-------------**Important Configurations**--------------------------------
+
+* login Azure: 
+    > Create Storage Account
+    > Create Container
+    
