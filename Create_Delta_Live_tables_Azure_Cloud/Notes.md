@@ -1,3 +1,9 @@
+### Project Architecture Diagram:
+
+![alt text](image.png)
+
+
+
 # What is Delta Live Tables:
 
 > Delta Live Tables are automated way of executing the ETL pipelines by managing all the dependecies between the datasets defines in the pipelines
