@@ -66,10 +66,10 @@ Furthermore, Delta Live Tables enables you to enforce data quality standards. Th
 # **Data Processing Pipeline Setup:**
 
 1. Azure Resources Configuration:
-    Step 1: Set up Azure Data lake Storage account.
-    Step 2: Upload batch data into the designated container in Azure Data Lake storage.
-    Step 3: Configure Azure Event Hub for streaming data ingestion
-    step 4: Ingest streaming data into Azure Event Hub using Python script
+    > Step 1: Set up Azure Data lake Storage account.
+    > Step 2: Upload batch data into the designated container in Azure Data Lake storage.
+    > Step 3: Configure Azure Event Hub for streaming data ingestion
+    > step 4: Ingest streaming data into Azure Event Hub using Python script
 
 2. Azure Databricks Workspace Setup:
     step 5: Establist Azure workspace
