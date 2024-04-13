@@ -63,9 +63,30 @@ Furthermore, Delta Live Tables enables you to enforce data quality standards. Th
 > Visualization will happen using the Power BI reports
 
 
--------------**Important Configurations**--------------------------------
+# **Data Processing Pipeline Setup:**
 
-* login Azure: 
-    > Create Storage Account
-    > Create Container
-    
+1. Azure Resources Configuration:
+    Step 1: Set up Azure Data lake Storage account.
+    Step 2: Upload batch data into the designated container in Azure Data Lake storage.
+    Step 3: Configure Azure Event Hub for streaming data ingestion
+    step 4: Ingest streaming data into Azure Event Hub using Python script
+
+2. Azure Databricks Workspace Setup:
+    step 5: Establist Azure workspace
+    step 6: Create computing cluster within the Azure Databricks workspace for data processing
+
+3. Data Loading and Preparation:
+    step 7: Load batch data from Azure Data Lake Storage into Databricks tables.
+    step 8: Ingest streaming data from Azure Event Hub into Databricks file storage.
+
+4. Delta Live Tables Pipelines Creation:
+    step 9: Develop a Delta Live Tables pipeline to handle both streaming and batch data
+
+5. Data Transformation and Storage:
+    step 10: Apply transformations on tables stored in the Bronze and Silver layers of the Delta Live Tables pipeline
+
+6. Integration with Power BI:
+    step 12: Load data from Gold layer tables into Power BI for visualization purposes
+    step 13: Create visualization and reports in Power BI based on the processed and cleaned data
+
+This approach outlines the step-by-step process to set up Azure resources, configure Azure Databricks workspace, ingest and process batch/streaming data, implement a Delta Live Tables pipeline for data transformation, and finally integrate with Power BI for data visualization and reporting. Each step is crucial in building a comprehensive data processing and analytics workflow using Azure services and Delta Live Tables.
