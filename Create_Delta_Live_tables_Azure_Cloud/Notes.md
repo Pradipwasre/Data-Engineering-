@@ -65,6 +65,11 @@ Furthermore, Delta Live Tables enables you to enforce data quality standards. Th
 
 # **Data Processing Pipeline Setup:**
 
+
+# Architecture Diagram: 
+
+![alt text](image-1.png)
+
 1. Azure Resources Configuration:
     * Step 1: Set up Azure Data lake Storage account.
     * Step 2: Upload batch data into the designated container in Azure Data Lake storage.
@@ -90,7 +95,3 @@ Furthermore, Delta Live Tables enables you to enforce data quality standards. Th
     * step 13: Create visualization and reports in Power BI based on the processed and cleaned data
 
 This approach outlines the step-by-step process to set up Azure resources, configure Azure Databricks workspace, ingest and process batch/streaming data, implement a Delta Live Tables pipeline for data transformation, and finally integrate with Power BI for data visualization and reporting. Each step is crucial in building a comprehensive data processing and analytics workflow using Azure services and Delta Live Tables.
-
-# Architecture Diagram: 
-
-![alt text](image-1.png)
