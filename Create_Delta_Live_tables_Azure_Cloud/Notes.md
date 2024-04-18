@@ -65,8 +65,7 @@ Furthermore, Delta Live Tables enables you to enforce data quality standards. Th
 
 # **Data Processing Pipeline Setup:**
 
-
-# Architecture Diagram: 
+### *Architecture Diagram:* 
 
 ![alt text](image-1.png)
 
