@@ -95,4 +95,6 @@ Furthermore, Delta Live Tables enables you to enforce data quality standards. Th
     * step 12: Load data from Gold layer tables into Power BI for visualization purposes
     * step 13: Create visualization and reports in Power BI based on the processed and cleaned data
 
+
 This approach outlines the step-by-step process to set up Azure resources, configure Azure Databricks workspace, ingest and process batch/streaming data, implement a Delta Live Tables pipeline for data transformation, and finally integrate with Power BI for data visualization and reporting. Each step is crucial in building a comprehensive data processing and analytics workflow using Azure services and Delta Live Tables.
+
