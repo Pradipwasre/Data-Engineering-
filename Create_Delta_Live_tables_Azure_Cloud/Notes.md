@@ -10,8 +10,6 @@ In contrast, batch-style analytics can take hours or days to deliver results, of
 
 Our objective is to establish a Delta Live Tables pipeline within Azure Databricks to handle both streaming and batch data from various sources. Batch data is stored in Azure Data Lake Storage, while streaming data is ingested through Azure Event Hub. Each layer of the Delta Live Table will undergo different transformations, and we will use Power BI to visualize the data stored in the gold layer of the Delta Live Tables.
 
-
-
 # **Overview of Delta Live Tables**
 
 Delta Live Tables is a platform designed for building robust, scalable, and validated data processing workflows. It handles task scheduling, cluster administration, monitoring, data integrity, and error management, while you define the specific data transformations to be executed on your data. Instead of manually creating multiple Apache Spark tasks to build data pipelines, Delta Live Tables manages how your data is transformed based on predefined target schemas for each processing step.
