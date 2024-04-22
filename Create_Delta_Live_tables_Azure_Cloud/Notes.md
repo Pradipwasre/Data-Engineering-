@@ -12,6 +12,7 @@ Our objective is to establish a Delta Live Tables pipeline within Azure Databric
 
 # **Overview of Delta Live Tables**
 
+
 Delta Live Tables is a platform designed for building robust, scalable, and validated data processing workflows. It handles task scheduling, cluster administration, monitoring, data integrity, and error management, while you define the specific data transformations to be executed on your data. Instead of manually creating multiple Apache Spark tasks to build data pipelines, Delta Live Tables manages how your data is transformed based on predefined target schemas for each processing step.
 
 Furthermore, Delta Live Tables enables you to enforce data quality standards. Through "expectations," you can specify the desired level of data quality and define actions to take when records do not meet these standards. This feature enhances the reliability and integrity of your data processing pipelines.
